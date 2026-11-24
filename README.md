@@ -8,12 +8,13 @@ I started in QA in 2008 and have kept the same habit since: find the system-leve
 
 | Area | Project | What it is |
 |---|---|---|
-| Evaluation | [PairwisePM](https://github.com/brettleehari/PairwisePM) | A mechanical pairwise judge for GenAI product decisions, built to take noise out of LLM-judged comparisons. [Explainer on Hugging Face](https://huggingface.co/spaces/brettleehari/PairwisePM-explained). |
-| Agent safety | [agent-crucible](https://github.com/brettleehari/agent-crucible) | An adversarial fitness gate for autonomous agents: a floor of deterministic villains an agent must survive before deployment. A pass means no tripwire sprang, not that the agent is safe. |
-| Fine-tuning | [cricketmind](https://github.com/brettleehari/cricketmind) | Nemotron-Mini-4B fine-tuned with QLoRA and response distillation. 29.8% to 67.5% on CricketBench v0.1, a 20-question benchmark I wrote, from about 170 examples and 35 minutes of GPU time. [Model](https://huggingface.co/brettleehari/cricketmind-nemotron-mini) and [dataset](https://huggingface.co/datasets/brettleehari/cricketbench-v1) are on Hugging Face. |
 | On-device models | [arivu](https://github.com/brettleehari/arivu) | A language model that runs entirely on a phone (iOS and Android). The model ships inside the app, works offline, and shows what each reply cost in tokens. |
 | Inference economics | [tokencalci](https://github.com/brettleehari/tokencalci) | A live-priced planner for self-hosting an open model versus renting it from a neocloud API, with break-even. [Live](https://tokencalci.onrender.com). |
+| Fine-tuning | [cricketmind](https://github.com/brettleehari/cricketmind) | Nemotron-Mini-4B fine-tuned with QLoRA and response distillation. 29.8% to 67.5% on CricketBench v0.1, a 20-question benchmark I wrote, from about 170 examples and 35 minutes of GPU time. [Model](https://huggingface.co/brettleehari/cricketmind-nemotron-mini) and [dataset](https://huggingface.co/datasets/brettleehari/cricketbench-v1) are on Hugging Face. |
 | Code analysis | [grasprepo](https://github.com/brettleehari/grasprepo) | A Tree-sitter engine that surfaces code churn and structural complexity in a repository. [Live](https://grasprepo.onrender.com/). |
+| Data systems | [BTCExpert](https://github.com/brettleehari/BTCExpert) | A crypto market intelligence platform built on FastAPI, TimescaleDB, Kafka, pgvector and Redis, with WebSocket streaming. |
+
+Smaller experiments: [PairwisePM](https://github.com/brettleehari/PairwisePM), a pairwise judge for GenAI product decisions, and [agent-crucible](https://github.com/brettleehari/agent-crucible), an adversarial test floor for autonomous agents.
 
 I also contribute to NITA (NEST Interactive Toy Arena), an AI toy safety testing platform in the Foundation for Agentic Networks, where my focus is LLM-judge reliability and measuring adversarial scenario coverage.
 
